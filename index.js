@@ -30,6 +30,11 @@ const port = 3000;
 app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
+app.listen(port, () => {
+  console.log(`🔗 Listening to Testing http://localhost:${port}`);
+  console.log(`🔗 Powered By Testing`);
+});
+
 
 const statusMessages = ["Watching EgyptAir"];
 
